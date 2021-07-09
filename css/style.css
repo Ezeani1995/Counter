@@ -38,7 +38,7 @@ body {
   margin-right: 5px;
   color: #00405d;
   font-size: 30px;
-  margin-top: 3px;
+  margin-top: 10px;
 }
 
 .counter-container .counter-div {
@@ -115,6 +115,7 @@ body {
   .counter-container .counter-div {
     width: 90%;
     padding: 30px;
+    margin-bottom: 20px;
   }
 
   .counter-container{
