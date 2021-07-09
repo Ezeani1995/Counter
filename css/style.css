@@ -120,6 +120,14 @@ body {
     padding: 30px;
   }
 
+  .counter-container{
+     margin: 30px auto;
+  }
+ 
+  .counter-container h2{
+     font-size: 30px;
+  }
+
   .counter-container .counter-div h1,
   .counter-container .counter-div .count-result,
   .counter-container .counter-div .button-grid {
@@ -137,5 +145,9 @@ body {
 
   .counter-container a i {
      font-size: 25px;
+  }
+
+  .counter-container .counter-div #count-result h1{
+     font-size: 7rem;
   }
 }
