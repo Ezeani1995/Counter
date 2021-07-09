@@ -110,19 +110,20 @@ body {
                             MEDIA QUERIES
 =======================================================================================*/
 @media (max-width: 565px) {
+  body, 
+  .counter-container{
+    height: 100%;
+  }
+
   .counter-container .counter-div {
     width: 90%;
-    padding: 30px 50px;
+    padding: 30px;
   }
 
   .counter-container .counter-div h1,
   .counter-container .counter-div .count-result,
   .counter-container .counter-div .button-grid {
     text-align: center;
-  }
-
-  .counter-container .counter-div {
-    padding: 50px 30px;
   }
 
   .counter-container .counter-div .button-grid {
